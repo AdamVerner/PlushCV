@@ -159,9 +159,15 @@
 Last Updated on \today
 \end{textblock}}
 
+% Image section command
+\newcommand{\imagesection}[1]{
+\vspace{2.5cm}
+\includegraphics[width=5cm,height=5cm,keepaspectratio,clip]{#1}
+\sectionsep
+}
+
+
 % Name command
-
-
 \newcommand{\namesection}[4]{
 \RaggedRight{
 \color{title}
